@@ -18,7 +18,7 @@ const {
 
 <template>
   <circle :cx="x" :cy="y" :r="radius" />
-  <text :x="x" :y="y + textY" :data-text-size="textSize" :style="textSize && `--text-size: ${textSize}`">{{ text }}</text>
+  <text :x="x" :y="y + textY" :style="textSize && `--text-size: ${textSize}`">{{ text }}</text>
 </template>
 
 <style scoped>
