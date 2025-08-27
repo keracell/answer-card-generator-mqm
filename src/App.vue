@@ -11,6 +11,7 @@ import { RouterLink, RouterView } from "vue-router";
     <RouterLink to="/mag">Mag</RouterLink>
     <RouterLink to="/b89">B89</RouterLink>
     <RouterLink to="/b11">B11</RouterLink>
+    <RouterLink to="/b10">B10</RouterLink>
   </nav>
   <div class="page">
 
