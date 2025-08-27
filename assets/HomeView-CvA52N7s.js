@@ -1,1 +1,0 @@
-import{_ as e}from"./_plugin-vue_export-helper-DlAUqK2U.js";import{c,o}from"./index-IE6zU-CY.js";const r={};function n(t,s){return o(),c("main",null,"csfdf")}const _=e(r,[["render",n]]);export{_ as default};
