@@ -4,19 +4,21 @@ const {
   y = 0,
   text,
   radius = 12,
-  textY = 5,
+  textY = 6,
+  textSize = null
 } = defineProps<{
   x: number;
   y: number;
   text: string;
   radius?: number;
   textY?: number;
+  textSize?: string;
 }>();
 </script>
 
 <template>
   <circle :cx="x" :cy="y" :r="radius" />
-  <text :x="x" :y="y + textY">{{ text }}</text>
+  <text :x="x" :y="y + textY" :data-text-size="textSize" :style="textSize && `--text-size: ${textSize}`">{{ text }}</text>
 </template>
 
 <style scoped>
@@ -28,7 +30,7 @@ circle {
 
 text {
   font-family: Arial, serif;
-  font-size: 14px;
+  font-size: var(--text-size, 18px);
   text-anchor: middle;
   fill: var(--color-pink, pink);
 }
