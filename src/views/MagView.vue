@@ -42,7 +42,7 @@ const markerSize = 100;
         <OptionXType v-for="i in j" :key="i" :text="(index * 10 + i + 11).toString()" :x="0" :y="(i - 1) * 30" />
       </g>
 
-      <NumericType :x="430" :y="130" text="15"  />
+      <NumericType :x="430" :y="100" text="15" decimal  />
 
       <g v-for="(j, index) in [5]" :key="j" :transform="`translate(405, ${index * 315 + 500})`">
         <OptionXType v-for="i in j" :key="i" :text="(index * 10 + i + 15).toString()" :x="0" :y="(i - 1) * 30" />

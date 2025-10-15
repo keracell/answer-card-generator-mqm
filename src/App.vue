@@ -3,7 +3,7 @@ import { RouterLink, RouterView } from "vue-router";
 </script>
 
 <template>
-  <nav class="no-print">
+  <nav class="no-print flex gap-1">
     <RouterLink to="/">Home</RouterLink>
     <RouterLink to="/about">About</RouterLink>
     <RouterLink to="/blok">Blok</RouterLink>
@@ -11,6 +11,7 @@ import { RouterLink, RouterView } from "vue-router";
     <RouterLink to="/mag">Mag</RouterLink>
     <RouterLink to="/b89">B89</RouterLink>
     <RouterLink to="/b11">B11</RouterLink>
+    <RouterLink to="/b11-eng">B11 (Eng)</RouterLink>
     <RouterLink to="/b10">B10</RouterLink>
   </nav>
   <div class="page">
@@ -32,5 +33,13 @@ import { RouterLink, RouterView } from "vue-router";
   .page {
     margin: 1cm;
   }
+}
+
+.flex {
+  display: flex;
+}
+
+.gap-1 {
+  gap: 1em;
 }
 </style>
