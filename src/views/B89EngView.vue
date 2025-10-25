@@ -48,10 +48,10 @@ const markerSize = 100;
       <NumericType :x="995" :y="770" text="46" decimal />
 
       <g v-for="(j, index) in [3]" :key="j" :transform="`translate(970, ${index * 315 + 1190})`">
-        <OptionXType v-for="i in j" :key="i" :text="(index * 10 + i + 76).toString()" :x="0" :y="(i - 1) * 30" />
+        <OptionXType v-for="i in j" :key="i" :text="(index * 10 + i + 46).toString()" :x="0" :y="(i - 1) * 30" />
       </g>
 
-      <MatrixType :x="970" :y="1310" :rows="4" :cols="2" text="80"/>
+      <MatrixType :x="970" :y="1310" :rows="4" :cols="2" text="50"/>
     </svg>
   </div>
 </template>
