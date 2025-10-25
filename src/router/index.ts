@@ -44,6 +44,11 @@ const router = createRouter({
       component: () => import('@/views/B11EngView.vue'),
     },
     {
+      path: '/b9-eng',
+      name: 'b9-eng',
+      component: () => import('@/views/B89EngView.vue'),
+    },
+    {
       path: '/b10',
       name: 'b10',
       component: () => import('@/views/B10View.vue'),
