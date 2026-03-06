@@ -7,16 +7,18 @@ import { RouterLink, RouterView } from "vue-router";
     <RouterLink to="/">Home</RouterLink>
     <RouterLink to="/about">About</RouterLink>
     <RouterLink to="/blok">Blok</RouterLink>
-    <RouterLink to="/test-120">Test-110</RouterLink>
+    <RouterLink to="/test-60">Test-60</RouterLink>
+    <RouterLink to="/test-110">Test-110</RouterLink>
     <RouterLink to="/mag">Mag</RouterLink>
     <RouterLink to="/b89">B89</RouterLink>
     <RouterLink to="/b9-eng">B89 (Eng)</RouterLink>
     <RouterLink to="/b11">B11</RouterLink>
     <RouterLink to="/b11-eng">B11 (Eng)</RouterLink>
     <RouterLink to="/b10">B10</RouterLink>
+    <RouterLink to="/dovgu">Dovlet G.</RouterLink>
+    <RouterLink to="/qebul-01">Qebul G.</RouterLink>
   </nav>
   <div class="page">
-
     <RouterView />
   </div>
 </template>

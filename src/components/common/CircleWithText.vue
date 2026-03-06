@@ -32,6 +32,6 @@ text {
   font-family: Arial, serif;
   font-size: var(--text-size, 18px);
   text-anchor: middle;
-  fill: var(--color-pink, pink);
+  fill: var(--color-pink-text, pink);
 }
 </style>
